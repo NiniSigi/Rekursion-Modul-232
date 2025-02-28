@@ -1,3 +1,5 @@
+package Februar_28_2025;
+
 public class EinMalEins {
 
     public static void iterativEinMalEins(int n) {

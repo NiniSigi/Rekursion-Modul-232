@@ -1,3 +1,5 @@
+package Februar_28_2025;
+
 public class AdditionUntilN {
 
     public static int iterativDreickzahl(int end) {
