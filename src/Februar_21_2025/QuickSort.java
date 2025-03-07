@@ -18,7 +18,7 @@ public class QuickSort {
     }
 }
 
-//quicksort([1,3,2,4])                      return 1,2,3,4]
+//quicksort([1,3,2,4])                      return [1,2,3,4]
     //quicksort([3,2,4])                return [2,3,4]
         //quicksort([3,4])          return [3,4]
             //quicksort([4])    return [4]
