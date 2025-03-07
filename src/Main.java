@@ -9,10 +9,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        //callQuickSort();
-        //callAdditionUntilN();
-        //callAllUnEvenNumbers();
-        //callEinMalEins();
+        callQuickSort();
+        callAdditionUntilN();
+        callAllUnEvenNumbers();
+        callEinMalEins();
         callZeichnenZeichnen();
     }
 
