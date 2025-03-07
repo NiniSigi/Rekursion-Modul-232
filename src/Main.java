@@ -2,16 +2,18 @@ import Februar_21_2025.QuickSort;
 import Februar_28_2025.AdditionUntilN;
 import Februar_28_2025.AllUnEvenNumbersUntilN;
 import Februar_28_2025.EinMalEins;
+import März_07_2025.ZeichenZeichnen;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        callQuickSort();
-        callAdditionUntilN();
-        callAllUnEvenNumbers();
-        callEinMalEins();
+        //callQuickSort();
+        //callAdditionUntilN();
+        //callAllUnEvenNumbers();
+        //callEinMalEins();
+        callZeichnenZeichnen();
     }
 
     public static void callQuickSort() {
@@ -35,5 +37,11 @@ public class Main {
         int reihe = 5;
         EinMalEins.iterativEinMalEins(reihe);
         EinMalEins.rekursivesEinMalEins(reihe);
+    }
+
+    public static void callZeichnenZeichnen(){
+        int anzahl =5;
+        ZeichenZeichnen.iterativZeichenZeichnen(anzahl);
+        ZeichenZeichnen.rekursivZeichenZeichnen(anzahl);
     }
 }
